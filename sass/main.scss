@@ -1,0 +1,110 @@
+img,{
+  width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+body{
+  text-align: center;
+  header{
+    margin-bottom: 50px;
+  }
+  div{
+    margin: 0 auto;
+  }
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      max-height: 300px;
+  }
+
+  #iconList {
+    display:inline-block;
+    float: right;
+    font-size: 25px;
+    li{
+    display:inline-block;
+    margin-right: 10px;
+  }
+}
+.people{
+  img{
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+}
+.mapbox {
+    text-align: center;
+    #map {
+        height: 350px;
+        width: 100%;
+    }
+}
+#addToCart {
+  margin-top: 4px;
+}
+.testimonials{
+  background-color: darken(grey, 15);
+  color: white;
+  text-align: center;
+}
+.companies{
+  text-align: center;
+}
+#testGoesHere{
+text-align: center;
+display: block;
+margin-top: 20px;
+}
+#test1,#test2,#test3{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-position: center;
+  border: 4px solid white;
+}
+#test1{
+  background-image: url('https://randomuser.me/api/portraits/women/60.jpg');
+}
+#test2{
+  background-image: url('https://randomuser.me/api/portraits/men/70.jpg');
+}
+#test3{
+  background-image: url('https://randomuser.me/api/portraits/men/69.jpg');
+}
+#iconList2 {
+  display:inline-block;
+  float: right;
+  font-size: 25px;
+  margin-top: 35px;
+  li{
+  display:inline-block;
+  margin-right: 10px;
+}
+}
+.content{
+  background-color: darken(grey, 15);
+  color: white;
+  text-align: left;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 35px;
+}
+#links {
+  margin-top: 40px;
+  li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  a{
+  color:black;
+  text-decoration: none;
+}
+  &:hover{
+    text-decoration: none;
+  }
+}
